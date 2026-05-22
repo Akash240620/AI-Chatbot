@@ -26,7 +26,7 @@ recognizer = sr.Recognizer()
 
 def listen():
     with sr.Microphone() as source:
-        print("\n🎤 Listening...")
+        print("\n Listening...")
         recognizer.adjust_for_ambient_noise(source, duration=0.5)
         audio = recognizer.listen(source)
 
