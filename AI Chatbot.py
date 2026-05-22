@@ -67,7 +67,7 @@ def main():
         messages.append({"role": "user", "content": user_input})
 
         try:
-            # ✅ UPDATED MODEL (WORKING)
+            # UPDATED MODEL (WORKING)
             response = client.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=messages
